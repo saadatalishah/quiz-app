@@ -1,0 +1,71 @@
+body{
+    background-color: lightblue;
+    font-size: 22px;
+}
+#option{
+    display: inline;
+}
+input{
+    display: block;
+    background-color: green;
+}
+.next{
+    background-color: darkcyan;
+    border: 7px solid;
+    border-radius: 5px 6px 8px 10px;
+    /*float: right;*/
+    margin-right: 0px;
+    margin-left: 300px;
+}
+div{
+        border: 2px dotted darkblue;
+    border-radius: 30px;
+    width: 400px; 
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*color: darkslategrey;*/
+}
+
+p{
+    
+    margin-left: 5px;
+    padding:5px 40px 3px 50px;
+    /*border-width: 40px;*/
+
+}
+.text{
+    width: 250px;
+    height: 23px;
+    border-radius: 10px 10px 10px 10px;
+}
+.main{
+    margin: 50px 500px 100px 500px;}
+h1{
+    color: darkblue;
+    /*background-color: slateblue;*/
+}
+legend{
+    color: red;
+}
+.btn1{
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+}
+/*.radioButton{
+       padding: 0 105px 0 105px;
+       border: 2px dotted #ffaf33;
+    border-top-color: lightblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+     display: inline-block;
+}*/
+/*.question{
+    margin: 0;
+    display: inline-block;
+}*/
+/*
+h2{
+    display: inline;
+}*/
