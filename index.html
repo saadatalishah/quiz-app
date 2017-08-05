@@ -2,65 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<title>Document</title>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advance JavaScript</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center> <h1> QUIZ APP </h1> 
-    <h1> JAVA SCRIPT TEST-1 </h1>
-    <div id="one">
-       <p class="question">What is the capital of Pakistan?</p>
-       <hr>
-        <form class="radioButton">
-       <input type="radio" class="radio" name="cities" id="option" value="ISLAMABAD" onclick="naya()">ISLAMABAD</input><br><br>
-         <input type="radio" class="radio" name="cities" id="option" value="KARACHI"onclick="naya()">KARACHI</input><br><br>
-         <input type="radio" class="radio" id="option" name="cities" value="LAHORE"onclick="naya()">LAHORE</input><br><br>
-         <input type="radio" class="radio" id="option" value="QUETTA" name="cities" onclick="naya()">QUETTA</input><br><br>
-         </form>
-    </div>
-    <div id="two">
-    <p>Who was the first President of Pakistan?</p>
-    <hr>
-        <input type="radio" name="que2" value="QUAID-E-AZAM"onclick="naya()" id='option'>QUAID-E-AZAM<br><br>
-         <input type="radio"name="que2" value="ISKANDAR" onclick="naya()" id='option'> ISKANDAR MIRZA<br><br>
-         <input type="radio"name="que2"  value="LIQUAT" onclick="naya()" id='option'> LIQUAT ALI KHAN<br><br>
-         <input type="radio"name="que2"  value="MOHAMMED" onclick="naya()" id='option'> MOHAMMED ALI JOHAR<br><br>
+    <center>
+        <h1>Dua App</h1>
+    <form action="signIn">
+        <h1>Sign Up</h1>
+        <label for="">First Name :</label><br> <input type="fname" id="input"><br>
+        <label for="">last Name :</label><br> <input type="lname" id="input1"><br>
+        <label for="">Email :</label><br> <input type="email" id="input2"><br>
+        <label for="">Password :</label><br> <input type="password" id="input3"><br>
+        <label for="">Age :</label><br> <input type="number" id="input4"><br><br>
+        <input type="button" id="submit" value="Sign In for Dua" onclick="signup()">
 
-    </div>
-     <div id="three">
-    <p>In Atomic country rating Pakistan is at ? </p>
-    <hr>
-        <input type="radio"  onclick="naya()" value="2" id='option'>2<br><br>
-         <input type="radio" onclick="naya()"value="3" id='option'>3<br><br>
-         <input type="radio" onclick="naya()" value="4" id='option'> 4<br><br>       
-         <input type="radio"  onclick="naya()" value="7" id='option'>7<br><br>
-    </div>
-     <div id="four">
-    <p>Bangladesh was seperated from Pakistan in? </p>
-    <hr>
-        <input type="radio" onclick="naya()" value="1971"id='option'>1971<br><br>
-         <input type="radio" onclick="naya()"value="1977" id='option'>1977<br><br>
-         <input type="radio" onclick="naya()"value="1947" id='option'>1947<br><br>
-         <input type="radio" onclick="naya()"value="1951"id='option'>1951<br><br>
-     </div>    
-     <div id="five">
-    <p>Pakistan National Anthem was written by? </p>
-    <hr>
-        <input type="radio"  value="QUAID-E-AZAM"onclick="naya()"id='option'>QUAID-E-AZAM</input><br><br>
-         <input type="radio"  value="Allama"onclick="naya()"id='option'>Allama Iqbal</input><br><br>
-         <input type="radio"  value="Hafiz"onclick="naya()"id='option'>Hafiz jalindhri</input><br><br>       
-         <input type="radio" value="ISKANDAR"onclick="naya()"id='option'>ISKANDAR MIRZA</input><br><br>
-    </div>
-     <div id="six">
-         <p>How do we declare variable in java script? </p>
-         <hr>
-        <input type="radio" id="option" value='by using int'onclick="naya()">by using int</input><br><br>
-         <input type="radio" id="option" value='by using string'onclick="naya()">by using string</input><br><br>
-         <input type="radio" id="option" value="by using var"onclick="naya()">by using var</input><br><br>       
-         <input type="radio" id="option"value="by using variable"onclick="naya()">by using variable</input><br><br>
-     </div>
-    <input type="button" onclick="myfunction()" class="next" value="NEXT" >
-    <!--<input type="button" onclick="myfunction()" class="next" value="SAVE" id="save"  onclick="window.location.href='result.html'">-->
-    <script src="app.js"></script>
+    </form>
+
+    </center>
+    <script src="main.js"> </script>
 </body>
 </html>
